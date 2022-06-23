@@ -14,7 +14,7 @@ function Note({ deleteNote, index, title, content }) {
           width: "30px",
           height: "30px",
           borderRadius: "50%",
-          backgroundColor: "gray",
+          backgroundColor: "white",
           position: "absolute",
         }}
         onClick={() => deleteNote(index)}
