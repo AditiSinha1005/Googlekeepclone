@@ -21,7 +21,9 @@ function Note({ deleteNote, index, title, content }) {
       >
         X
       </div>
-      <h3 >{title}</h3>
+      <h3 style={{
+          wordBreak: "break-all"
+      }} >{title}</h3>
       <br />
       <p style={{
           wordBreak: "break-all"
